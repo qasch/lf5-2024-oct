@@ -1,0 +1,30 @@
+== Aufgabe 1: Einfache Variablenzuweisung
+
+Schreibe ein Python-Skript, das folgende Schritte ausführt:
+
+- Weist einer Variablen `x`den Wert 10 zu.
+- Weist einer Variablen `y` den Wert 5 zu.
+- Berechnet die Summe von `x` und `y` und speichert das Ergebnis in einer neuen Variablen `summe`.
+- Gibt den Wert von `summe` aus.
+
+== Aufgabe 2: Typen von Variablen
+- Weist einer Variablen `my_float` den Wert 3.14 zu.
+- Weist einer Variablen `my_text` den Wert "Hallo, Welt!" zu.
+- Weist einer Variablen `my_boolean` den Wert True zu.
+- Gibt die Typen der Variablen mit dem `type()` -Builitn aus. Hinweis: Eine Ausgabe wird generell mit dem Builitn `print()` erreicht. Als Parameter (das in den Klammern) können nicht nur Variablen, sondern auch weitere Builtins oder Methoden übergeben werden.
+
+== Aufgabe 3:
+- Weist der Variablen `name` euren Namen zu
+- Weist der Variablen `alter` euer Alter zu
+- Weist der Variablen `wohnort` euren Wohnort zu
+- Gebt die Werte folgendermassen aus:
+```
+"Ich bin <name>, ich bin <alter> Jahre alt und wohne in <wohnort>."
+```
+
+== Aufgabe 4: Mathematische Operationen mit Variablen
+
+- Weist einer Variablen `zahl1` den Wert 15 zu.
+- Weist einer Variablen `zahl2` den Wert 4 zu.
+- Berechnet die folgenden Operationen und speichert die Ergebnisse in neuen Variablen: _Addition,_ _Subtraktion_, _Multiplikation_, _Division_ und _Modulo_.
+- Gibt die Ergebnisse der Operationen aus.
