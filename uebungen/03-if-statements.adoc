@@ -5,7 +5,7 @@
 
 - Fordere den Benutzer auf, eine Zahl einzugeben.
 - Überprüfe, ob die eingegebene Zahl positiv ist.
-- Gib eine entsprechende Nachricht aus: "Die Zahl ist positiv" oder "Die Zahl ist nicht positiv".
+- Gib eine entsprechende Nachricht aus: "Die Zahl ist positiv".
 
 == Aufgabe 2: if-else-Anweisung
 
