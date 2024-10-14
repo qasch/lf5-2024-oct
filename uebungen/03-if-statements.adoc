@@ -1,0 +1,40 @@
+= Übungen zu If-Anweisungen
+:toc:
+
+== Aufgabe 1: Einfache if-Anweisung
+
+- Fordere den Benutzer auf, eine Zahl einzugeben.
+- Überprüfe, ob die eingegebene Zahl positiv ist.
+- Gib eine entsprechende Nachricht aus: "Die Zahl ist positiv" oder "Die Zahl ist nicht positiv".
+
+== Aufgabe 2: if-else-Anweisung
+
+- Fordere den Benutzer auf, sein Alter einzugeben.
+- Überprüfe, ob der Benutzer volljährig ist (18 Jahre oder älter).
+- Gib eine entsprechende Nachricht aus: "Du bist volljährig" oder "Du bist minderjährig".
+
+== Aufgabe 3: if-elif-else-Anweisung
+
+- Fordere den Benutzer auf, eine Note (zwischen 1 und 5) einzugeben.
+- Gib basierend auf der Note eine entsprechende Nachricht aus:
+- 1: "Sehr gut"
+- 2: "Gut"
+- 3: "Befriedigend"
+- 4: "Ausreichend"
+- 5: "Nicht ausreichend"
+- Jede andere Eingabe: "Ungültige Note"
+
+== Aufgabe 4: Verschachtelte if-Anweisungen
+
+- Fordere den Benutzer auf, eine Zahl einzugeben.
+- Überprüfe, ob die Zahl positiv, negativ oder null ist.
+- Falls die Zahl positiv ist, überprüfe, ob sie gerade oder ungerade ist.
+- Gib eine entsprechende Nachricht aus.
+
+== Aufgabe 5: Mehrere Bedingungen mit and und or
+
+- Fordere den Benutzer auf, zwei Zahlen einzugeben.
+- Überprüfe jeweils in einer einzelnen Bedingung, 
+  - ob beide Zahlen positiv sind.
+  - ob mindestens eine der Zahlen negativ ist.
+- Gib entsprechende Nachrichten aus.
