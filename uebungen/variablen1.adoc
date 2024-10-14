@@ -13,7 +13,16 @@ Schreibe ein Python-Skript, das folgende Schritte ausführt:
 - Weist einer Variablen `my_boolean` den Wert True zu.
 - Gibt die Typen der Variablen mit dem `type()` -Builitn aus. Hinweis: Eine Ausgabe wird generell mit dem Builitn `print()` erreicht. Als Parameter (das in den Klammern) können nicht nur Variablen, sondern auch weitere Builtins oder Methoden übergeben werden.
 
-== Aufgabe 3: Mathematische Operationen mit Variablen
+== Aufgabe 3:
+- Weist der Variablen `name` euren Namen zu
+- Weist der Variablen `alter` euer Alter zu
+- Weist der Variablen `wohnort` euren Wohnort zu
+- Gebt die Werte folgendermassen aus:
+```
+"Ich bin <name>, ich bin <alter> Jahre alt und wohne in <wohnort>."
+```
+
+== Aufgabe 4: Mathematische Operationen mit Variablen
 
 - Weist einer Variablen `zahl1` den Wert 15 zu.
 - Weist einer Variablen `zahl2` den Wert 4 zu.
