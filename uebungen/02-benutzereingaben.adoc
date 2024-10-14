@@ -1,0 +1,37 @@
+
+= Python Übungsaufgaben zu Benutzereingaben
+
+== Übung 1: Persönliche Informationen
+Schreibe ein Programm, das den Benutzer nach seinem Namen, Alter und seiner Stadt fragt und die Informationen formatiert ausgibt.
+
+----
+Mein Name ist <name>, ich bin <alter> Jahre alt und lebe in <stadt>.
+----
+
+== Übung 2: Temperaturumrechnung
+Schreibe ein Programm, das die Temperatur in Grad Celsius einliest und in Fahrenheit umrechnet. Die Formel hierfür ist: `Fahrenheit = (Celsius * 9/5) + 32`
+
+== Übung 3: Addiere zwei Zahlen
+Schreibe ein Programm, das den Benutzer nach zwei Zahlen fragt, diese addiert und das Ergebnis ausgibt.
+
+== Übung 4: Kreisumfang berechnen
+Schreibe ein Programm, das den Radius eines Kreises einliest und den Umfang des Kreises berechnet.
+
+
+Formel: `Umfang = 2 * π * Radius`
+
+Verwende den Wert `π = 3.14159`
+
+== Übung 5: Durchschnittsberechnung
+Schreibe ein Programm, das den Benutzer nacheinander nach drei Zahlen fragt und den Durchschnitt dieser Zahlen berechnet. Gib das Ergebnis aus.
+
+== Übung 6: Kilometer in Meilen umrechnen
+Schreibe ein Programm, das eine Distanz in Kilometern einliest und diese in Meilen umrechnet.
+
+== Übung 7: BMI-Rechner
+Schreibe ein Programm, das das Gewicht (in Kilogramm) und die Größe (in Metern) des Benutzers einliest und den Body Mass Index (BMI) berechnet.
+
+Formel: `BMI = Gewicht / (Größe ** 2)`
+
+== Übung 8: Einkaufsrechner
+Schreibe ein Programm, das den Preis von 3 Produkten und deren jeweilige Menge einliest und den Gesamtpreis des Einkaufs berechnet.
