@@ -99,7 +99,7 @@ print("Yeah, 100 Punkte - gewonnen!")
 print()
 print("--- for Loop mit String ---")
 print("", end="\n")
-text = "Die Sonne scheint"
+text = "Die Sonne scheint"     # Ein String ist ein sog. "Iterable", so wie z.B. eine List/Tuple/Dictionary bzw. Array in anderen Sprachen
 for letter in text:
     print(letter, end="|")
 print("nach dem loop")
@@ -112,11 +112,22 @@ print()
 # Zahl ist grösser als 10 und keine Eingabeaufforderung mehr erscheinen
 
 # bewusst gebaute Endlosschleife
-while True:
-    eingabe = int(input("Bitte gib eine Zahl groesser als 10 ein: "))
-    if eingabe > 10:
-        print(f"Du hast {eingabe} eingegeben. {eingabe} ist groesser als 10. Glückwunsch!")
-        break
-    print(f"Du hast {eingabe} eingegeben. {eingabe} ist nicht groesser als 10. Versuche es erneut.")
+# while True:
+#     eingabe = int(input("Bitte gib eine Zahl groesser als 10 ein: "))
+#     if eingabe > 10:
+#         print(f"Du hast {eingabe} eingegeben. {eingabe} ist groesser als 10. Glückwunsch!")
+#         break
+#     print(f"Du hast {eingabe} eingegeben. {eingabe} ist nicht groesser als 10. Versuche es erneut.")
 
+
+print()
+print("--- verschachtelter for-Loop (z.B. Angabe Koordinaten ---")
+print()
+
+# Schleife für x-Koordinaten (äussere Schleife)
+for x in range(1, 6):
+    # Schleife für y-Koordinaten (innere Schleife)
+    for y in range(1, 6):
+        print(f"({x}; {y})", end=" ")
+    print()   # Zeilenumbruch nach Ende der inneren Schleife
 
