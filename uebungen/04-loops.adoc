@@ -1,0 +1,97 @@
+== Aufgabe 1: Summe der ersten n natürlichen Zahlen
+
+- Fordere den Benutzer auf, eine positive ganze Zahl `n` einzugeben.
+- Berechne die Summe der ersten `n` natürlichen Zahlen (`1` bis `n`) mithilfe einer `for` -Schleife.
+- Gib die Summe aus.
+
+== Aufgabe 2: Alle geraden Zahlen in einem Bereich
+
+- Fordere den Benutzer auf, zwei Zahlen `start` und `end` einzugeben.
+- Gib alle geraden Zahlen in diesem Bereich (inklusive `start` und `end`, falls sie gerade sind) mithilfe einer `for` -Schleife aus.
+- Zusatz: Schreibe zwei Schleifen. Eine *ohne* und einmal *mit* dem Schlüsslewort `continue`.
+
+== Aufgabe 3: Zählen von Vokalen in einem String
+
+- Fordere den Benutzer auf, einen beliebigen String einzugeben.
+- Zähle die Anzahl der Vokale (a, e, i, o, u) in dem String mithilfe einer `for` -Schleife.
+- Gib die Anzahl der Vokale aus.
+
+== Zusatz-Aufgabe 4: Benutzer-Eingabe validieren (mit while-Schleife)
+
+- Fordere den Benutzer auf, eine positive ganze Zahl einzugeben.
+- Verwende eine `while` -Schleife, um sicherzustellen, dass die Eingabe eine positive ganze Zahl ist und lass die Eingabeaufforderung erneut erscheinen falls nicht.
+- Gib die gültige Eingabe aus.
+
+== Aufgabe 5: Multiplikationstabelle
+
+- Fordere den Benutzer auf, eine Zahl `n` einzugeben.
+- Erstelle eine Multiplikationstabelle für die Zahlen von `1` bis `n` mithilfe von zwei ineinadner verschachtelter `for` -Schleifen.
+- Gib die Tabelle formatiert aus.
+- Ihr braucht hierfür *zwei* Schleifen, die auf eine ganz bestimmte Art angeordnet sein müssen.
+
+Hinweis: Eine Multiplikationstabelle ist eine tabellarische Darstellung der Produkte zweier Zahlen. 
+
+Die Multiplikationstabelle von `1` bis `5` sieht folgendermaßen aus:
+
+----
+    1  2  3  4  5
+  ----------------
+1 |  1  2  3  4  5
+2 |  2  4  6  8 10
+3 |  3  6  9 12 15
+4 |  4  8 12 16 20
+5 |  5 10 15 20 25
+----
+
+Ihr sollt hierbei nur den inneren Teil ausgeben, also so:
+
+----
+ 1  2  3  4  5
+ 2  4  6  8 10
+ 3  6  9 12 15
+ 4  8 12 16 20
+ 5 10 15 20 25
+----
+
+Werft dazu einmal einen Blick in die Dokumentation von `print()`.
+
+== Aufgabe 7: Rechteck
+
+Gib folgende Figur auf der Konsole aus:
+
+----
+####
+####
+####
+####
+----
+
+Dabei soll vorher gefragt werden, welche `hoehe` und welche `breite` das Rechteck haben soll. Im obigen Beispiel wären für beide Variablen `4` eingegeben worden.
+
+== Aufgabe 8: Dreieck
+
+Gib folgende Figur auf der Konsole aus:
+
+----
+*
+**
+***
+****
+*****
+----
+
+Auch hier soll anfangs nach der `hoehe` des Dreiecks gefragt werden.
+
+== Zusatz-Aufgabe 9: Figur ausgeben schwerer
+
+Gib folgende Figur (Baum) auf der Konsole aus:
+
+----
+   *
+  ***
+ *****
+*******
+   |
+----
+
+Anfangs erfolgt erneut eine Abfrage nach der `hoehe` des Baums.
