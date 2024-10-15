@@ -19,3 +19,8 @@ print(alter + geburtsjahr)    # + Additions-Operator (Verkettung von Integern)
 # wir müssen den Integer vorher in einen String casten (umwandeln)
 print("Der Hund heisst " + name + " und ist " + str(alter) + " Jahre alt.")
 
+# f-String
+print("Ausgabe mit f-String:")
+print(f"Der Hund heisst {name} und ist {alter} Jahre alt.")  # Variablen stehen in geschweiften Klammern { und } 
+
+
