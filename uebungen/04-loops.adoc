@@ -16,7 +16,7 @@
 - Zähle die Anzahl der Vokale (a, e, i, o, u) in dem String mithilfe einer `for` -Schleife.
 - Gib die Anzahl der Vokale aus.
 
-Einfacherer Variante: Zähle alle Buchstaben, egal ob Vokal oder Konsonant.
+Einfachere Variante: Zähle alle Buchstaben, egal ob Vokal oder Konsonant.
 
 == Zusatz-Aufgabe 4: Benutzer-Eingabe validieren (mit while-Schleife)
 
