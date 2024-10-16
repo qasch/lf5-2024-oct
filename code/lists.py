@@ -62,4 +62,46 @@ print(f"{shopping_list=}")
 shopping_list.append("Milch")   # die Methode append() fügt ein neues Element ans Ende der list an
 print(f"{shopping_list=}")
 
+## List Slicing
+print("--- List Slicing ---")
+print(shopping_list[2:])
+print(shopping_list[2:4])
+print()
+
+
+
+# Strings sind auch Objekte und haben ebenso Methoden, die über die Punkt-Notation aufgerufen werden können:
+print("--- Strings sind ähnlich wie Lists: ---")
+text = "hallo"
+print(text)
+print(text.capitalize())
+print(text.upper())
+print(text.count("l"))
+
+
+print()
+print("--- Aufgabe Vokale finden mit einer list: ---")
+
+# vokale = "aeiou"
+vokale = ["a", "e", "i", "o", "u"]
+satz = "HAllo du"
+
+# ohne Loop, vokale einzeln abfragen:
+# if "a" in satz:
+#     print("ja")
+# if "e" in satz:
+#     print("ja")
+
+# wie oben, nur mit loop:
+count = 0
+for character in vokale:
+    if character in satz:
+        print(f"{character} ist in satz")
+        count += 1
+
+print(f"Anzahl Vokale {count}")
+
+ 
+
+
 
