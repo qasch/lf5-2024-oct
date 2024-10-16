@@ -45,3 +45,21 @@ print()
 print(f"{mixed_list[0]=}")
 mixed_list[0] = "foo"
 print(f"{mixed_list[0]=}")
+
+# Elemente einer bestehenden List hinzufügen:
+shopping_list = ["Brot", "Käse", "Eier", "Butter"]
+# shopping_list[4] = "Milch"     # geht so nicht, immer wenn wir einen nicht existierenden
+                                 # Index referenzieren, erhalten wir den "index out of range" Fehler
+
+# List Methoden
+# Lists haben Methoden (-> Name für Funtionen in der Objektorientierten Programmierung)
+# Methoden können im Unterschied zu Funktionen bzw. Builtins nicht einfach so aufgerufen werden (wie z.B. print()), 
+# sondern brauchen ein Objekt, welches sie über die sog. "Punkt-Notation" aufrufen können:
+#   print()           -> Funktion/Builtin
+#   objekt.methode()  -> Methode
+
+print(f"{shopping_list=}")
+shopping_list.append("Milch")   # die Methode append() fügt ein neues Element ans Ende der list an
+print(f"{shopping_list=}")
+
+
